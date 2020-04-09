@@ -58,6 +58,7 @@
 		E44D2C36243B9B1900A0391A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44D2C3E243B9B3000A0391A /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		E44D2C40243B9D7A00A0391A /* SomaHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomaHandler.swift; sourceTree = "<group>"; };
+		E4A8071E243FA57C002B9FB4 /* LearningSiriKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningSiriKit.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		E44D2C19243B9B0200A0391A /* LearningSiriKit */ = {
 			isa = PBXGroup;
 			children = (
+				E4A8071E243FA57C002B9FB4 /* LearningSiriKit.entitlements */,
 				E44D2C1A243B9B0200A0391A /* AppDelegate.swift */,
 				E44D2C1C243B9B0200A0391A /* SceneDelegate.swift */,
 				E44D2C1E243B9B0200A0391A /* ViewController.swift */,
@@ -388,6 +390,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningSiriKit/LearningSiriKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HW626WUP4;
 				INFOPLIST_FILE = LearningSiriKit/Info.plist;
@@ -407,6 +410,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningSiriKit/LearningSiriKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HW626WUP4;
 				INFOPLIST_FILE = LearningSiriKit/Info.plist;
